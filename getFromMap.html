@@ -8,5 +8,12 @@
      <input name="search-bar" id="search-bar" type="text" />
      <button onclick="doSearch()">Pesquisar</button>
    </form>
+   
+   <script>
+      function doSearch(){
+        let pesquisa = document.querySelector("#search-bar").innerText;
+        alert(pesquisa);
+      }
+   </script>
  </body>
 </html>
