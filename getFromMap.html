@@ -7,6 +7,7 @@
     body{
       background-color: black;
       color: white;
+      font-size: 25px;
     }
     #search-bar{
       width: 60%;
@@ -16,12 +17,25 @@
       width: 35%;
       height: 8%;
     }
+    .first,.second{
+    float: left;
+    width: 100%;
+    }
+    #json, #json{
+    width: 45%;
+    }
   </style>
   
  <body>
-
+    
+   <div class="first">
      <input name="search-bar" id="search-bar" type="text" />
      <button onclick="doSearch()">Pesquisar</button>
+   </div>
+   <div class="second">
+     <div><textarea id="json">JSON</textarea></div>
+     <div><textarea id="csv">CSV</textarea></div>
+   </div>
 
    
    <script>
