@@ -1,0 +1,25 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.conteudo {
+  min-height: 80vh;
+  padding: 5%;
+}
+
+.navbar {
+  /* Estilos para a navbar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  /* Estilos para o footer */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
