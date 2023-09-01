@@ -67,7 +67,7 @@ const about = () => {
             love nature, barbecues and my pets.
           </p>
 
-          <p className='text-lg mb-4'>My Career Time-Lapse:</p>
+          <p className='text-lg mb-4'>Timeline of my career:</p>
 
           <ul className="steps text-center mx-auto">
             <li className="step step-primary"><a onClick={() => carrerInfos("informaticstechnician")}>Informatics Technician Student</a></li>
