@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 const menuItems = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Skills', href: '/skills' }
+  { name: 'Skills', href: '/skills' },
+  { name: 'Contact', href: '/contact' }
 ];
 
 function Navbar() {

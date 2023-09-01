@@ -19,7 +19,7 @@ const careerInfoMap = {
   },
   jrbackend: {
     title: 'Jr. Backend & Desktop Developer',
-    description: 'After i finished my technician course i started as a Jr Backend Developer in Merito Engenharia de Software.',
+    descripsetion: 'After i finished my technician course i started as a Jr Backend Developer in Merito Engenharia de Software.',
   },
   midbackend: {
     title: 'Mid. Backend & Desktop Developer',

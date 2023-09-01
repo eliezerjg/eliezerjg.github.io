@@ -1,6 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
-
+import { Link } from 'react-router-dom';
 const downloadPdf = () => {
   Swal.fire(
     'Its nice to have you here!',
@@ -18,10 +18,9 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-4 footer flex items-center justify-between">
       <p>
-        Eliezer Garcia | Fullstack Development Since 2019 
-        
+        Eliezer Garcia | Fullstack Development.   
       </p>
-     
+
       <div className="ml-2">
       
 

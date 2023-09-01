@@ -9,6 +9,7 @@ import About from './routes/About/about'
 import Skills from './routes/skills/skills'
 
 import './index.css'
+import Contact from './routes/contact/contact';
 
 const routes = [
   {
@@ -25,6 +26,10 @@ const routes = [
       {
         path: "/skills",
         element: <Skills/>
+      },
+      {
+        path: "/contact",
+        element: <Contact/>
       },
     ]
   }
