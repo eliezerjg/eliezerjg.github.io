@@ -6,7 +6,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 import Home from './routes/home/home'
 import About from './routes/About/about'
-import HardSkills from './routes/hardskills/hardskills'
+import Skills from './routes/skills/skills'
 
 import './index.css'
 
@@ -23,8 +23,8 @@ const routes = [
         element: <About/>
       },
       {
-        path: "/hardskills",
-        element: <HardSkills/>
+        path: "/skills",
+        element: <Skills/>
       },
     ]
   }

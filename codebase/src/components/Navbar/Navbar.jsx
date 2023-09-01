@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importe o Link
+import { Link } from 'react-router-dom'; 
 
 const menuItems = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'My  Skills', href: '/hardskills' }
+  { name: 'Skills', href: '/skills' }
 ];
 
 function Navbar() {
@@ -33,7 +33,7 @@ function Navbar() {
           
      
           
-          Eliezer Garcia</Link>
+          Eliezer Garcia - Fullstack Developer</Link>
 
 
  

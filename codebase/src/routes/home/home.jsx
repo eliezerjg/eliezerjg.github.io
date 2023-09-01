@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/navbar/navbar';
 import Footer from '../../components/Footer/footer';
 import Content from '../../components/Content/Content';
+import { Link } from 'react-router-dom'; 
 
 const Home = () => {
   return (
@@ -11,9 +12,9 @@ const Home = () => {
 
       <Content>
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Welcome!</h1>
+          <h1 className="text-6xl font-bold mb-4">Welcome!</h1>
 
-          <div className="rounded-full overflow-hidden w-40 h-40 mx-auto mt-8">
+          <div className="rounded-full overflow-hidden w-60 h-60 mx-auto mt-8 mb-4">
             <img
               src="perfil.jpg"
               alt="Profile photo"
@@ -24,6 +25,14 @@ const Home = () => {
           <p className="text-lg">
             Its nice to have you here, this is my portfolio. <strong>Built with React + Vite, TailwindCSS and daisyUI.</strong>
           </p>
+
+          <p className="text-lg">
+            A little bit about me:&nbsp;&nbsp;
+            <Link to="/about" className="text-white text-xl font-semibold">About</Link> | 
+            <Link to="/hardskills" className="text-white text-xl font-semibold"> My Skills</Link>
+          </p>
+
+          
         </div>
 
         
