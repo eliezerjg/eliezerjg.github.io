@@ -11,7 +11,7 @@ const about = () => {
       <Navbar />
       <Content>
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">About</h1>
+          <h1 className="text-4xl text-white font-bold mb-4">About</h1>
 
           <div className="w-100vh h-40 mb-4">
             <img

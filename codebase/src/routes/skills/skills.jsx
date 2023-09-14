@@ -52,9 +52,9 @@ const Skills = () => {
       <Content>
 
       <div>
-      <p className='text-4xl font-bold mb-4'>Timeline of my career:</p>
+      <p className='text-4xl text-white font-bold mb-12 py-7 '>Timeline of my career:</p>
 
-<ul className="steps text-center mx-auto py-4">
+<ul className="steps relative py-6">
   <li className="step step-primary"><a onClick={() => carrerInfos("informaticstechnician")}>Informatics Technician Student</a></li>
   <li className="step step-primary"><a onClick={() => carrerInfos("techsupport")}>Tech Support</a></li>
   <li className="step step-primary"><a onClick={() => carrerInfos("technologiststudent")}>Tecnologist in Web Development Student</a></li>
@@ -67,12 +67,12 @@ const Skills = () => {
       </div>
 
 
-      <div className='text-justify mb-4'>
+      <div className='text-justify mb-4 py-12'>
 
 
 
 
-  <h1 className='text-4xl font-bold mb-4'>Real life Projects</h1>
+  <h1 className='text-4xl text-white font-bold mb-4'>Real life Projects</h1>
 
   <p>Focused on Fullstack Engineering, most of my career revolved around backend development, where I built strong applications
       using Java 8+ and Java / Jakarta EE, Spring Framework, PHP and Javascript. During the Covid-19 pandemic, the technology sector
@@ -95,7 +95,7 @@ const Skills = () => {
 </div>
 
         <div className='text-justify mb-4 py-4'>
-          <h1 className='text-4xl font-bold mb-4'>Soft Skills</h1>
+          <h1 className='text-4xl text-white font-bold mb-4'>Soft Skills</h1>
             <ul className="list-disc ml-6">
               <li><strong>Resilience:</strong> Ability to overcome challenges and adversities while maintaining a positive focus.</li>
               <li><strong>Commitment:</strong> Total dedication to work and company goals.</li>
@@ -105,7 +105,7 @@ const Skills = () => {
             </ul>
         </div>
         <div className='text-justify'>
-          <h1 className='text-4xl font-bold mb-4'>Hard Skills</h1>
+          <h1 className='text-4xl text-white font-bold mb-4'>Hard Skills</h1>
           <ul className="list-disc ml-6">
             <li><strong>Programming Languages:</strong> Java / Javascript.</li>
             <li><strong>Frameworks / Libraries:</strong> Spring Framework, Angular / AngularJS, React + Vite.</li>

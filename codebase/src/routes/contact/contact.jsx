@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from '../../components/Footer/Footer';
 import Content from '../../components/Content/Content';
-import Navbar from '../../components/Navbar/Navbar';
 import { Link } from 'react-router-dom';
+import Navbar from '../../components/navbar/navbar';
+import Footer from '../../components/Footer/footer';
 
 const Contact = () => {
   return (
@@ -10,9 +10,9 @@ const Contact = () => {
       <Navbar />
       <Content>
 
-      <h1 className='text-4xl text-center font-bold mb-4 py-5'>Contact-me</h1>
+      <h1 className='text-4xl text-white text-center font-bold mb-4 py-5'>Contact-me</h1>
 
-        <div className='text-justify mb-4 py-4'>
+        <div className='text-justify'>
           
           <div className="flex flex-col space-y-2">
             <div className="flex items-center justify-between">
