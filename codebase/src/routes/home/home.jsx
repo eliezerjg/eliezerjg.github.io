@@ -29,7 +29,11 @@ const Home = () => {
           <p className="text-lg">
             A little bit about me:&nbsp;&nbsp;
             <Link to="/about" className="text-white text-xl font-semibold">About</Link> | 
-            <Link to="/hardskills" className="text-white text-xl font-semibold"> My Skills</Link>
+            <Link to="/skills" className="text-white text-xl font-semibold"> My Skills</Link>
+          </p>
+
+          <p className="text-lg p-4">
+            <Link to="https://github.com/eliezerjg/eliezerjg.github.io/tree/main/codebase" className="btn btn-primary">Feel free to use this source code .</Link>
           </p>
 
           
