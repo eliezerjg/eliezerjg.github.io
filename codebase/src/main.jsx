@@ -10,6 +10,7 @@ import Skills from './routes/skills/skills'
 
 import './index.css'
 import Contact from './routes/contact/contact';
+import Projects from './routes/projects/projects';
 
 const routes = [
   {
@@ -30,6 +31,10 @@ const routes = [
       {
         path: "/contact",
         element: <Contact/>
+      },
+      {
+        path: "/projects",
+        element: <Projects/>
       },
     ]
   }

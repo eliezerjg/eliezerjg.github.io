@@ -6,11 +6,11 @@ import Footer from '../../components/Footer/footer';
 
 const Contact = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center min-h-screen'>
       <Navbar />
       <Content>
 
-      <h1 className='text-4xl text-white text-center font-bold mb-4 py-5'>Contact-me</h1>
+      <h1 className='text-4xl text-white text-center font-bold'>Contact-me</h1>
 
         <div className='text-justify'>
           
