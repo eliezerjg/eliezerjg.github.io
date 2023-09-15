@@ -48,7 +48,7 @@ const Skills = () => {
               </Link>
             </li>
             <li>
-              Aitra Solutions - Temporary DBA Tech Freelancer.{" "}
+              Aitra Solutions - Host Solutions.{" "}
               <Link to="https://www.aitra.com.br/" className="text-blue-700">
                 read more...
               </Link>
