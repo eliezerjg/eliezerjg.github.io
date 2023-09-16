@@ -4,7 +4,11 @@ import Footer from '../../components/Footer/footer';
 import Content from '../../components/Content/Content';
 import { Link } from 'react-router-dom'; 
 
-const Home = () => {
+const Home = ({recoverRoute}) => {
+  if(recoverRoute){
+    alert(recoverRoute);
+  }
+  
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
 
