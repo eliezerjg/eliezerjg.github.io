@@ -4,6 +4,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import Navbar from '../../components/navbar/navbar';
 import Footer from '../../components/Footer/footer';
 import Content from '../../components/Content/Content';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const location = useLocation(); 
