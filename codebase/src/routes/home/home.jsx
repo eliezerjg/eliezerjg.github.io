@@ -13,7 +13,7 @@ const Home = () => {
   const recoverRoute = queryParams.get('ref').match(/[^/]*$/)[0];
 
   useEffect(() => {
-    if (recoverRoute) {
+    if (recoverRoute != null) {
       navigate(`/${recoverRoute}`);
     }
   }, [navigate, recoverRoute]);
