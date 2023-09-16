@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/footer';
 import Content from '../../components/Content/Content';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const tryToRecoveryRoute = () => {
   const location = useLocation(); 
   const navigate = useNavigate();
   let recoverRoute = new URLSearchParams(location.search).get('ref');
@@ -17,7 +17,10 @@ const Home = () => {
       
     }, [navigate, route]);
   }
+};
+const Home = () => {
   
+  tryToRecoveryRoute();
   
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
