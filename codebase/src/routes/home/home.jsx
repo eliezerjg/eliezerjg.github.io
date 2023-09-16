@@ -9,14 +9,15 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   const location = useLocation(); 
   const navigate = useNavigate();
-  const queryParams = new URLSearchParams(location.search);
-  const recoverRoute = queryParams.get('ref').match(/[^/]*$/)[0];
-
-  useEffect(() => {
-    if (recoverRoute != null) {
-      navigate(`/${recoverRoute}`);
-    }
-  }, [navigate, recoverRoute]);
+  let recoverRoute = new URLSearchParams(location.search).get('ref');
+  if(recoverRoute != null){
+    let route = recoverRoute.match(/[^/]*$/)[0];
+    useEffect(() => {
+        navigate(`/${route}`);
+      
+    }, [navigate, route]);
+  }
+  
   
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
