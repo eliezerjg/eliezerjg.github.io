@@ -10,7 +10,7 @@ const Home = () => {
   const location = useLocation(); 
   const navigate = useNavigate();
   const queryParams = new URLSearchParams(location.search);
-  const recoverRoute = queryParams.get('recoverRoute');
+  const recoverRoute = queryParams.get('recoverRoute').match(/[^/]*$/)[0];
 
   useEffect(() => {
     if (recoverRoute) {
