@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory, Link } from 'react-router-dom';
 import Navbar from '../../components/navbar/navbar';
 import Footer from '../../components/Footer/footer';
 import Content from '../../components/Content/Content';
-import { Link } from 'react-router-dom'; 
 
-const Home = ({recoverRoute}) => {
-  if(recoverRoute){
-    alert(recoverRoute);
-  }
+const Home = ({ location }) => {
+  const history = useHistory();
+  const queryParams = new URLSearchParams(location.search);
+  const recoverRoute = queryParams.get('recoverRoute');
+
+  useEffect(() => {
+    if (recoverRoute) {
+      history.push(`/${recoverRoute}`);
+    }
+  }, [history, recoverRoute]);
   
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
