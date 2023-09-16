@@ -21,10 +21,6 @@ const routes = [
         element: <Home/>
       },
       {
-        path: "/:recoverRoute",
-        element: <Home/>
-      },
-      {
         path: "/about",
         element: <About/>
       },
