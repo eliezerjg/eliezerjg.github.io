@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../Navbar/Style.css";
 
 const menuItems = [
   { name: "Home", href: "/" },
@@ -14,7 +15,7 @@ function Navbar() {
     <nav className="bg-gray-800 p-4 navbar w-100">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          <a href="https://github.com/eliezerjg" className="px-1">
+          <a href="https://github.com/eliezerjg" className="github px-1">
             <button className="btn btn-outline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +31,7 @@ function Navbar() {
             </button>
           </a>
 
-          <div className="p-4">
+          <div className="logo-name p-4">
             <Link to="/" className="text-white text-xl font-semibold">
               Eliezer
             </Link>

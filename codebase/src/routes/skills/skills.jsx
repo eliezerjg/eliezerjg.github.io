@@ -80,7 +80,7 @@ const Skills = () => {
         </div>
 
         <div className="text-justify">
-          <h1 className="text-3xl text-white py-2">Soft Skills</h1>
+          <h1 className="text-3xl text-white py-2 mt-4">Soft Skills</h1>
           <ul className="list-disc ml-6">
             <li>
               <strong>Resilience:</strong> Ability to overcome challenges and
@@ -105,7 +105,7 @@ const Skills = () => {
           </ul>
         </div>
         <div className="text-justify">
-          <h1 className="text-3xl text-white py-2">Hard Skills</h1>
+          <h1 className="text-3xl text-white py-2 mt-4">Hard Skills</h1>
           <ul className="list-disc ml-6">
             <li>
               <strong>Programming Languages:</strong> Java / Javascript.

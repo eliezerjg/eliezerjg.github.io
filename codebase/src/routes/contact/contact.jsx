@@ -10,7 +10,7 @@ const Contact = () => {
       <Navbar />
       <Content>
 
-      <h1 className='text-4xl text-white text-center font-bold'>Contact-me</h1>
+      <h1 className='text-4xl text-white text-center font-bold mb-12'>Contact Or Follow me On:</h1>
 
         <div className='text-justify'>
           
